@@ -1,0 +1,48 @@
+Statistics for kmer_coverage_31
+Number of Contigs:  12123
+Max Contig Length:  4077
+Mean Length:  199
+Total Length:  2424472
+N50:  265
+
+Statistics for kmer_coverage_41
+Number of Contigs:  5429
+Max Contig Length:  7451
+Mean Length:  331
+Total Length:  1800661
+N50:  783
+
+Statistics for kmer_coverage_49
+Number of Contigs:  3215
+Max Contig Length:  6320
+Mean Length:  501
+Total Length:  1612162
+N50:  1059
+
+Statistics for kmer_coverage_49_covCutoff_20
+Number of Contigs:  1220
+Max Contig Length:  10467
+Mean Length:  915
+Total Length:  1116372
+N50:  1804
+
+Statistics for kmer_coverage_49_covCutoff_60
+Number of Contigs:  430
+Max Contig Length:  7268
+Mean Length:  928
+Total Length:  399253
+N50:  1990
+
+Statistics for kmer_coverage_49_covCutoff_auto
+Number of Contigs:  1334
+Max Contig Length:  10467
+Mean Length:  896
+Total Length:  1196354
+N50:  1796
+
+Statistics for kmer_coverage_49_covCutoff_auto_minContig_500
+Number of Contigs:  624
+Max Contig Length:  10467
+Mean Length:  1649
+Total Length:  1029411
+N50:  2044

@@ -1,0 +1,8 @@
+1. Describe how the assembly changes with different k-mer values using the assembly statistics you have collected. How does the contig length distribution change?
+As kmer size increases, the distribution of contigs shifts towards being longer.
+
+2. How does an increased coverage cutoff affect the assembly? What is happening to the de Bruijin graph when you change the value of this parameter? How does velvet calculate its value for ‘auto’?
+The coverage cutoff removes contigs with a low overlap of reads (coverage). As the cutoff increases, the distribution in the de Bruijin graph begins to favor longer contigs. Velvet defines the cutoff as "half the length weighted median contig coverage depth" in `auto`. I believe that means they take weigh coverage to the length of the contig then find the median of this value for all contigs. Half of that value is the cutoff point.
+
+3. How does increasing minimum contig length affect your contig length distribution and N50?
+Distribution does not change. Contigs shorter than 500bp are simply cut out. This lowers the total number of contigs by about half. N50 would likely increase, since the whole genome has shifted to larger contigs. 

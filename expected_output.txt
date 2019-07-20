@@ -1,0 +1,6 @@
+Statistics for test.fa
+Number of Contigs:  3
+Max Contig Length:  1202
+Mean Length:  785
+Total Length:  2357
+N50:  1202
